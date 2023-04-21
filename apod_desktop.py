@@ -43,7 +43,7 @@ def main():
 
     # Set the APOD as the desktop background image
     if apod_id != 0:
-        image_lib.set_desktop_background_image(apod_info['file_path'])
+        image_lib.set_desktop_background_image(apod_info['file_path']) 
 
 def get_apod_date():
     """Gets the APOD date
